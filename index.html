@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Imagens/favicon-32x32.ico" type="image/x-icon">
+    <title>Burger King | Trabalhe Conosco</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <img src="Imagens/BK-novo-logo.svg" alt="Logo do Burger King" width="81" height="89" class="imagem">
+    </header>
+    <!--Main-->
+    <main class="conteudo">
+        <h1>Trabalhe conosco. Dê o primeiro passo!</h1>
+        <h3>Envie sua informações no campo abaixo</h3>
+        <form class="formulario">
+            <div class="input-nome"> <!-- Nome -->
+                <label for="inputNome">Seu nome completo:</label>
+                    <input type="text" id="inputNome" maxlength="50" required>
+            </div>
+            <div class="input-horario"> <!-- Horários disponível -->
+                <ul>
+                    <label for="horario">Horários disponível para entrevista:</label>
+                        <li><input type="radio" name="horario" value="manha" required> Manhã</li>
+                        <li><input type="radio" name="horario" value="tarde" required> Tarde</li>
+                        <li><input type="radio" name="horario" value="noite" required> Noite</li>
+                </ul>
+            </div>
+            <div class="input-adicionais"> <!-- Informações adicionais -->
+                <textarea id="texto" cols="50" rows="15" maxlength="750" placeholder="Informações adicionais (coloque aqui experiência anterior, habilidades específicas, etc...)"></textarea>
+            </div>
+            <div class="btn">  <!-- Botão -->
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <img src="Imagens/BK-novo-logo-eggwhite.svg" alt="Logo do BK branca" width="73.41" height="81">
+            <p>TODOS OS DIREITOS RESERVADOS &copy; 2024 Burger King Corporation</p>
+        </div>
+    </footer>
+</body>
+</html>

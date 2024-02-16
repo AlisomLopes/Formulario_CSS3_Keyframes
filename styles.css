@@ -1,0 +1,142 @@
+
+*{
+    padding: 0;
+    border: 0;
+    margin: auto;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Gill Sans";
+    font-weight: bold;
+    color: #502314;
+    background-color: rgb(245, 235, 220);
+}
+
+/* Header */
+header{
+    text-align: center;
+    width: 100%;
+    background: #d62300;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+/* Main */
+.conteudo{
+    width: 50%;
+    height: auto;
+    padding: 20px 50px 50px 50px;
+    backdrop-filter: blur(10px);
+    position: static;
+    border-radius: 20px;
+    border-top: 1px solid #ffffffd7;
+    border-left: 1px solid #ffffffb9;
+    box-shadow: 10px 10px 10px 10px rgba(138, 137, 137, 0.418)
+}
+.conteudo h1{
+    text-align: center;
+    font-size: 40px;
+}
+.conteudo h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto 50px auto;
+}
+.formulario{
+    font-size: 25px;
+    text-align: left;
+}
+/* Nome */
+.input-nome{
+    padding-bottom: 40px;
+}
+#inputNome{
+    width: 50ch;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 1px 15px 1px 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* Horário disponível */
+.input-horario{
+    padding-bottom: 40px;
+}
+.input-horario label{
+    margin-left: 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+ul li{
+    margin-left: 15px;
+}
+input[type='radio'] {
+    width: 1.15em;
+    height: 1.15em;
+    accent-color: #D62300;
+}
+/* Informações adicionais */
+.input-adicionais{
+    padding-top: 40px;
+    text-align: center;
+}
+#texto{
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    resize: none;
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+}
+::placeholder{
+    font-family: "Gill Sans";
+    font-weight: bolder;
+    font-size: 18px;
+    color: #502314;
+    opacity: 0.8;
+}
+/* Botão de enviar */
+input[type='submit']{
+    width: 30%;
+    height: 50px;
+    color: #F5EBDC;
+    background: #D62300;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.5s;
+}
+.btn{
+    text-align: center;
+    padding-top: 50px;
+}
+input[type='submit']:hover{
+    background: #FF8233;
+    color: #D62300;
+}
+
+/* Footer */
+footer{
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    color: rgb(245, 235, 220);
+    width: 100%;
+    background-color: rgb(80, 35, 20);
+    height: auto;
+}
+footer p{
+    margin: 10px;
+}
+footer img{
+    margin: 10px;
+}
